@@ -2,6 +2,12 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2>Smile Fresh</h2>
+    <ul>
+      <li><a href="/#/pacientes">Crear Pacientes</a></li>
+      <li><a href="/#/pacientes">Crear Doctores</a></li>
+      <li><a href="/#/pacientes">Crear Citas</a></li>
+      <li><a href="/#/pacientes">Ver Pacientes</a></li>
+      <li><a href="/#/pacientes">Ver Doctores</a></li>
     </ul>
   </div>
 </template>

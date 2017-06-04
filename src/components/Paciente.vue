@@ -27,6 +27,11 @@
             </div>
 
             <div class="form-group">
+              <label for="">Fecha de Nacimiento</label>
+              <input type="date" class="form-control"/>
+            </div>
+
+            <div class="form-group">
               <label for="">Género</label>
               <input type="text" class="form-control"/>
             </div>

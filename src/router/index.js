@@ -3,8 +3,9 @@ import Router from 'vue-router'
 import Hello from '@/components/Hello'
 import Paciente from '@/components/Paciente'
 import Doctor from '@/components/Doctor'
-import Historia from '@/components/Hello'
-import Cita from '@/components/Hello'
+import VerDoctores from '@/components/VerDoctores'
+import VerPacientes from '@/components/VerPacientes'
+import Cita from '@/components/Cita'
 
 Vue.use(Router)
 
@@ -22,6 +23,18 @@ export default new Router({
       path: '/doctores',
       name: 'doctores',
       component: Doctor
+    },{
+      path: '/citas',
+      name: 'citas',
+      component: Cita
+    },{
+      path: '/lista-doctores',
+      name: 'listado de doctores',
+      component: VerDoctores
+    },{
+      path: '/lista-pacientes',
+      name: 'listado de pacientes',
+      component: VerPacientes
     }
   ]
 })

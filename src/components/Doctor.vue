@@ -25,6 +25,22 @@
               <label for="">Dirección</label>
               <input type="text" class="form-control"/>
             </div>
+            <div class="form-group">
+              <label for="">Fecha de Nacimiento</label>
+              <input type="date" class="form-control"/>
+            </div>
+
+            <div class="form-group">
+              <label for="">Especialidad</label>
+              <select name="" id="" class="form-control">
+                <option value="">----</option>
+                <option value="">Cardiologia</option>
+                <option value="">Neurologia</option>
+                <option value="">Urologia</option>
+                <option value="">Pediatria</option>
+                <option value="">Oncologia</option>
+              </select>
+            </div>
 
             <div class="form-group">
               <label for="">Género</label>
